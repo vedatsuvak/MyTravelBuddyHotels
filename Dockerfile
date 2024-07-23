@@ -1,5 +1,5 @@
-# Use a compatible base image for ARM64
-FROM bellsoft/liberica-openjdk-alpine:17
+# Use a more compatible OpenJDK image for multi-architecture support
+FROM eclipse-temurin:17-jdk-alpine
 
 # Set the working directory inside the container
 WORKDIR /app

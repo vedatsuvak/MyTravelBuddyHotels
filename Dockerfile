@@ -1,5 +1,5 @@
-# Use a more compatible OpenJDK image for multi-architecture support
-FROM eclipse-temurin:17-jdk-alpine
+# Use a compatible OpenJDK image for multi-architecture support
+FROM adoptopenjdk:17-jdk-hotspot
 
 # Set the working directory inside the container
 WORKDIR /app

@@ -1,5 +1,5 @@
-# Use the official OpenJDK 17 image as the base image
-FROM --platform=linux/arm64 openjdk:17-jdk-alpine
+# Use a compatible base image for ARM64
+FROM bellsoft/liberica-openjdk-alpine:17
 
 # Set the working directory inside the container
 WORKDIR /app
